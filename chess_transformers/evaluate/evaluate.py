@@ -60,9 +60,9 @@ def evaluate_model(CONFIG):
                 pgn_file=os.path.join(
                     CONFIG.EVAL_GAMES_FOLDER,
                     (
-                        "LL {} | "
+                        "LL {} , "
                         + CONFIG.NAME
-                        + " as {} | GAMES {} |  W {} |  L {} |  D {} | {}.pgn"
+                        + " as {} , GAMES {} ,  W {} ,  L {} ,  D {} , {}.pgn"
                     ).format(
                         LL,
                         model_color.upper(),
